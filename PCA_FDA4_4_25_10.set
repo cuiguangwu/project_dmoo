@@ -1,0 +1,29 @@
+[COMMONA]
+ITERATIONS     	500 
+METHOD         	PCA 
+PATHNAME       	data/PCA_FDA4_4_25_10 
+POPSIZE        	100 
+PROBLEM        	FDA4 
+RUNS           	1 
+STA            	1 
+STRATEGY       	4 
+XCODING        	0 
+
+[COMMONP]
+BOUNDLOWER     	0 
+BOUNDUPPER     	1 
+DIMENSION      	5 
+TOLERANCEC     	1.0E-5 
+TOLERANCEF     	1.0E-5 
+TOLERANCEX     	1.0E-5 
+
+[COMMONS]
+ITEM           	METHOD PROBLEM STRATEGY TAOT NT 
+SECTION        	COMMONA COMMONA COMMONA DGTM DGTM 
+
+[DGTM]
+NT             	10 
+TAOT           	25 
+TINI           	3.0 
+TORDER         	3 
+
